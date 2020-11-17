@@ -1,0 +1,666 @@
+body{
+	font-family: 'PT Sans Caption', sans-serif;
+}
+
+/*//////////////////////////stars/////*/
+.fa-star{
+	font-size: 13px;
+}
+
+.checked {
+  color: orange;
+}
+/*//////////////////////////first-bar/////*/
+
+.first-bar p{
+	font-size: 11px;
+	color: #7b797a;
+
+}
+.navbar-form .input-group .buttion .my-btn{
+	box-shadow: none;
+	color:#fff;
+	background: #000;
+	height:calc(2.25rem + 2px);
+	width: calc(2.25rem + 2px);
+	transition: all 0.5s ease;
+
+}
+.navbar-form .input-group .buttion .my-btn:hover{
+	background: #ebebeb;
+	color: #000;
+	cursor: pointer;
+
+}
+
+.navbar-form .input-group .buttion .my-btn .fa-search{
+	margin: 10px 0 0 10px;
+}
+
+.buy .shopping-cart,.buy .zerro {
+	height:calc(2.25rem + 2px);
+	width: calc(2.25rem + 2px);
+	border: 1px solid #ebebeb;
+	cursor: pointer;
+}
+.buy .shopping-cart{
+	background: #000;
+	color: #fff;
+	transition: all 0.5s ease;
+
+}
+.buy .shopping-cart:hover{
+	background: #ebebeb;
+	color: #7b797a;
+	cursor: pointer;
+}
+.buy .shopping-cart .fas{
+	margin: 10px 0 0 0;
+	
+}
+.buy .zerro .zer{
+	margin: 5px 0 0 0;
+}
+.first-bar{
+	margin: 20px 0 0 0; 
+}
+.first-bar .profile{
+	background: #ebebeb;
+	color: #7b797a;
+	height:calc(2.25rem + 2px);
+	width: calc(2.25rem + 2px);
+	transition: all 0.5s ease;
+}
+.first-bar .profile:hover{
+	cursor: pointer;
+	background: #000;
+	color: #fff;
+}
+.first-bar .profile .fa-user{
+	font-size: 23px;
+	padding-left: 2px;
+}
+/*//////////////////////////second part/////*/
+.second-part {
+	background: #000;
+	height: 70px;
+}
+.second-part .collapse .navbar-nav a{
+	color: #fff;
+	text-transform: uppercase;
+}
+.second-part .collapse .navbar-nav a:hover{
+	color: #fff;
+	text-decoration: underline;
+}
+/*//////////////////////////slider/////*/
+.slider{
+	background: url(../img/slider-1.jpg);
+	background-color: #fff;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-width: auto;
+  height: 100%;
+}
+.slider .slider-text{
+	text-transform: uppercase;
+	font-size: 77px;
+	color: #fff;
+	font-weight: bold;
+	justify-content: center;
+	text-align: center;
+	line-height: 70px;
+	font-family: 'Montserrat', sans-serif;
+}
+.slider .buttion{
+	text-align: center;
+}
+
+.slider .buttion span{
+	padding-top: 50px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #000;	
+	justify-content: center;
+	text-align: center;
+    border: 2px solid #fff;
+    padding: 12px 33px;
+    cursor: pointer;
+}
+.slider .buttion span:hover{
+	background: #000;
+	color: #fff;
+	
+	animation-duration: 0.5s;
+    animation-name: bounceIn;
+}
+/*///////////////////////////////////////////catalog/////*/
+/*///////////////////////////////////////////catalog-item-01/////*/
+content .catalog-item-01{
+	background: url(../img/catalog-img-01.jpg);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-position: 244px 0;
+	height: 373px;
+	max-width: 458px;
+	transition:background 0.5s ease;
+	transition:all 0.5s ease;
+	margin: 0 auto;
+}
+content .catalog-item-01:hover{
+	cursor: pointer;
+	background-position: 280px 0;
+	padding-top: 10px;
+}
+content .catalog-item-01 h1, 
+content .catalog-item-02 h1,
+content .catalog-item-03 h1,
+content .catalog-item-04 h1, 
+content .catalog-item-05 h1,
+content .catalog-item-06 h1{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #000;
+	font-size: 20px;
+	margin-top: 20px;
+	margin: 25px 0 0 15px;
+}
+content .catalog-item-01 ul li,
+content .catalog-item-02 ul li,
+content .catalog-item-03 ul li,
+content .catalog-item-04 ul li,
+content .catalog-item-05 ul li,
+content .catalog-item-06 ul li{
+	list-style: none;
+
+}
+content .catalog-item-01 ul li a,
+content .catalog-item-02 ul li a,
+content .catalog-item-03 ul li a,
+content .catalog-item-04 ul li a,
+content .catalog-item-05 ul li a,
+content .catalog-item-06 ul li a{
+	text-decoration:none;
+	color: #7b797a;
+	font-size: 12px;
+}
+content .catalog-item-01 ul li a:hover,
+content .catalog-item-02 ul li a:hover,
+content .catalog-item-03 ul li a:hover,
+content .catalog-item-04 ul li a:hover,
+content .catalog-item-05 ul li a:hover,
+content .catalog-item-06 ul li a:hover{
+	color: #000;
+}
+/*///////////////////////////////////////////catalog-item-02/////*/
+content .catalog-item-02{
+	background: url(../img/catalog-img-02.jpg);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-position: 244px 0;
+	height: 373px;
+	max-width: 458px;
+	transition:background 0.5s ease;
+	transition:all 0.5s ease;
+	margin: 0 auto;
+}
+content .catalog-item-02:hover{
+	cursor: pointer;
+	background-position: 280px 0;
+	padding-top: 10px;
+}
+/*///////////////////////////////////////////catalog-item-03/////*/
+content .catalog-item-03{
+	background: url(../img/catalog-img-03.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-position: 244px 0;
+	height: 373px;
+	max-width: 458px;
+	transition:background 0.5s ease;
+	transition:all 0.5s ease;
+	margin: 0 auto;
+}
+content .catalog-item-03:hover{
+	cursor: pointer;
+	background-position: 280px 0;
+	padding-top: 10px;
+}
+/*///////////////////////////////////////////catalog-item-04/////*/
+content .catalog-item-04{
+	background: url(../img/catalog-img-04.jpg);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-position: 244px 0;
+	height: 373px;
+	max-width: 458px;
+	transition:background 0.5s ease;
+	transition:all 0.5s ease;
+	margin: 0 auto;
+}
+content .catalog-item-04:hover{
+	cursor: pointer;
+	background-position: 280px 0;
+	padding-top: 10px;
+}
+/*///////////////////////////////////////////catalog-item-05/////*/
+content .catalog-item-05{
+	background: url(../img/catalog-img-05.jpg);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-position: 200px 0;
+	height: 373px;
+	max-width: 458px;
+	transition:background 0.5s ease;
+	transition:all 0.5s ease;
+	margin: 0 auto;
+}
+content .catalog-item-05:hover{
+	cursor: pointer;
+	background-position: 280px 0;
+	padding-top: 10px;
+}
+/*///////////////////////////////////////////catalog-item-06/////*/
+content .catalog-item-06{
+	background: url(../img/catalog-img-06.jpg);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-position: 244px 0;
+	height: 373px;
+	max-width: 458px;
+	transition:background 0.5s ease;
+	transition:all 0.5s ease;
+	margin: 0 auto;
+}
+content .catalog-item-06:hover{
+	cursor: pointer;
+	background-position: 280px 0;
+	padding-top: 10px;
+}
+
+
+.banners .banner-01 .banner-1-inner{
+	background: url(../img/banner-01.png);
+	background-color: #f5f5f5;
+	height: 339px;
+	background-size: cover;
+	background-position: center;
+	max-width: 600px;
+    margin: 0 auto;
+}
+.banners .banner-01 .banner-1-inner h1{
+	text-transform: uppercase;
+	font-size: 43px;
+	color: #fff;
+	line-height: 48px;
+	padding: 50px 0 0 50px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.banners .banner-01 .banner-1-inner .buttion{
+	display: inline-block;
+	padding-top: 45px;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: bolder;
+	color: #fff;	
+	justify-content: center;
+	text-align: center;
+    border: 2px solid #fff;
+    padding: 12px 33px;
+    cursor: pointer;
+    margin: 0 0 0 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.banners .banner-01 .banner-1-inner .buttion:hover{
+	background: #000;
+	color: #fff;
+	
+	animation-duration: 0.8s;
+    animation-name: bounceIn;
+}
+
+
+
+.banners .banner-02 .banner-2-inner{
+	background: url(../img/banner-02.png);
+	background-color: #f5f5f5;
+	height: 339px;
+	background-size: cover;
+	background-position: center;
+	max-width: 600px;
+    margin: 0 auto;
+}
+.banners .banner-02 .banner-2-inner h1{
+	text-transform: uppercase;
+	font-size: 35px;
+	color: #000;
+	padding: 50px 0 0 50px;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.3s ease;
+}
+.banners .banner-02 .banner-2-inner h1:hover{
+	font-size: 39px;
+	cursor: pointer;
+}
+.banners .banner-02 .banner-2-inner h4{
+	
+	margin-right: 15px;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #000;
+
+	padding: 80px 0 0 0;
+	font-family: 'Montserrat', sans-serif;
+	transition: all 0.3s ease;
+}
+.banners .banner-02 .banner-2-inner h4:hover{
+	font-size: 22px;
+	cursor: pointer;
+}
+
+/*///////////////////////////////////////////feautured products/////*/
+.featured-products .header h2{
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 50px;
+	color: #333;
+}
+.products .product-1-inner .product-1 .new,
+.products .product-2-inner .product-2 .new,
+.products .product-3-inner .product-3 .new,
+.products .product-4-inner .product-4 .new,
+.products .product-5-inner .product-5 .new,
+.products .product-6-inner .product-6 .new,
+.products .product-7-inner .product-7 .new,
+.products .product-8-inner .product-8 .new{
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 13px;
+	color: #000;
+	border: 2px solid #000;
+	padding:3px 9px;
+
+}
+
+.products .product-1-inner .product-1 .background{
+	background: url(../img/products/product-background-01-01.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	height: 301px;
+	transition:all 0.8s ease;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.products .product-1-inner .product-1 .background:hover{
+	background: url(../img/products/product-background-01-02.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+}
+.products .product-2-inner .product-2 .background{
+	background: url(../img/products/product-background-02-01.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	height: 301px;
+	transition:all 0.8s ease;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.products .product-2-inner .product-2 .background:hover{
+	background: url(../img/products/product-background-02-02.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+}
+.products .product-3-inner .product-3 .background{
+	background: url(../img/products/product-background-03-01.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	height: 301px;
+	transition:all 0.8s ease;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.products .product-3-inner .product-3 .background:hover{
+	background: url(../img/products/product-background-03-02.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+}
+.products .product-4-inner .product-4 .background{
+	background: url(../img/products/product-background-04-01.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	height: 301px;
+	transition:all 0.8s ease;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.products .product-4-inner .product-4 .background:hover{
+	background: url(../img/products/product-background-04-02.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+}
+.products .product-5-inner .product-5 .background{
+	background: url(../img/products/product-background-05-01.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	height: 301px;
+	transition:all 0.8s ease;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.products .product-5-inner .product-5 .background:hover{
+	background: url(../img/products/product-background-05-02.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+}
+.products .product-6-inner .product-6 .background{
+	background: url(../img/products/product-background-06-01.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	height: 301px;
+	transition:all 0.8s ease;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.products .product-6-inner .product-6 .background:hover{
+	background: url(../img/products/product-background-06-02.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+}
+.products .product-7-inner .product-7 .background{
+	background: url(../img/products/product-background-07-01.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	height: 301px;
+	transition:all 0.8s ease;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.products .product-7-inner .product-7 .background:hover{
+	background: url(../img/products/product-background-07-02.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+}
+.products .product-8-inner .product-8 .background{
+	background: url(../img/products/product-background-08-01.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+	height: 301px;
+	transition:all 0.8s ease;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.products .product-8-inner .product-8 .background:hover{
+	background: url(../img/products/product-background-08-02.png);
+	background-color: #f5f5f5;
+	background-repeat: no-repeat; 
+	background-size: cover;
+	background-position: center;
+}
+.products .product-1-inner .product-1,
+.products .product-2-inner .product-2,
+.products .product-3-inner .product-3,
+.products .product-4-inner .product-4,
+.products .product-5-inner .product-5,
+.products .product-6-inner .product-6,
+.products .product-7-inner .product-7,
+.products .product-8-inner .product-8{
+	margin: 45px 0;
+}
+.products .product-1-inner .product-1 h3,
+.products .product-2-inner .product-2 h3,
+.products .product-3-inner .product-3 h3,
+.products .product-4-inner .product-4 h3,
+.products .product-5-inner .product-5 h3,
+.products .product-6-inner .product-6 h3,
+.products .product-7-inner .product-7 h3,
+.products .product-8-inner .product-8 h3{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #333;
+}
+.products .product-1-inner .product-1 h4,
+.products .product-2-inner .product-2 h4,
+.products .product-3-inner .product-3 h4,
+.products .product-4-inner .product-4 h4,
+.products .product-5-inner .product-5 h4,
+.products .product-6-inner .product-6 h4,
+.products .product-7-inner .product-7 h4,
+.products .product-8-inner .product-8 h4{
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 0 0 60px; ;
+}
+.products .product-1-inner .product-1 .shopping i,
+.products .product-2-inner .product-2 .shopping i,
+.products .product-3-inner .product-3 .shopping i,
+.products .product-4-inner .product-4 .shopping i,
+.products .product-5-inner .product-5 .shopping i,
+.products .product-6-inner .product-6 .shopping i,
+.products .product-7-inner .product-7 .shopping i,
+.products .product-8-inner .product-8 .shopping i {
+	font-size: 18px;
+	padding: 10px;
+	margin: 12px 3px;
+	background: #ebeaea;
+	color: #777;
+	cursor: pointer;
+}
+.products .product-1-inner .product-1 .shopping i:hover,
+.products .product-2-inner .product-2 .shopping i:hover,
+.products .product-3-inner .product-3 .shopping i:hover,
+.products .product-4-inner .product-4 .shopping i:hover,
+.products .product-5-inner .product-5 .shopping i:hover,
+.products .product-6-inner .product-6 .shopping i:hover,
+.products .product-7-inner .product-7 .shopping i:hover,
+.products .product-8-inner .product-8 .shopping i:hover{
+	animation-duration: 0.5s;
+    animation-name: bounceIn;
+    background: #323232;
+    color: #fff;
+}
+.products .product-1-inner .product-1 .shopping .active,
+.products .product-2-inner .product-2 .shopping .active,
+.products .product-3-inner .product-3 .shopping .active,
+.products .product-4-inner .product-4 .shopping .active,
+.products .product-5-inner .product-5 .shopping .active,
+.products .product-6-inner .product-6 .shopping .active,
+.products .product-7-inner .product-7 .shopping .active,
+.products .product-8-inner .product-8 .shopping .active {
+
+	background: #000;
+	color: #fff;
+	
+}
+.products .product-1-inner .product-1 .shopping i:hover,
+.products .product-2-inner .product-2 .shopping i:hover,
+.products .product-3-inner .product-3 .shopping i:hover,
+.products .product-4-inner .product-4 .shopping i:hover,
+.products .product-5-inner .product-5 .shopping i:hover,
+.products .product-6-inner .product-6 .shopping i:hover,
+.products .product-7-inner .product-7 .shopping i:hover,
+.products .product-8-inner .product-8 .shopping i:hover{
+    background: #fff;
+    color: #000;
+}
+
+/*///////////////////////////////////////////subscribe/////*/
+.subscribe{
+	background: #f5f5f5;
+	padding: 50px;
+}
+.subscribe h2{
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	font-size:19px;
+	text-transform: uppercase;
+}
+.subscribe span p{
+	color: #000;
+	font-size:14px;
+}
+.subscribe .control {
+	padding: 19px;
+	background: #fff;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+.subscribe .control span{
+	margin: 10px 20px 0 0 ;
+}
+.subscribe .control .input{
+	font-size:12px;
+	max-width: 400px;
+}
+.subscribe .control .btn{
+	background: #000;
+	color:#fff;
+	font-weight: 400;
+	height: 40px;
+	border-radius: 1px;
+
+}
+.subscribe .control .btn:hover{
+
+	animation-duration: 0.8s;
+    animation-name: bounceIn;
+    
+}
+/*	    animation-duration: 1s;
+    animation-name: fadeInLeft;*/
